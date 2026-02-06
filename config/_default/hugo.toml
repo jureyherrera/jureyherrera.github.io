@@ -21,6 +21,7 @@ googleAnalytics = "#####" # example: UA-123456-78, for more info, read the artic
 ############################
 ## Advanced options below ##
 ############################
+##test##
 
 # Name of Academia theme folder in `themes/`.
 theme = "academia-hugo"
@@ -90,7 +91,7 @@ target = '$1'
 # Caches
 [caches]
   [caches.images]
-    dir = ":resourceDir/_gen"
+    dir = ":cacheDir/images"
     maxAge = "720h"
 
   [caches.assets]

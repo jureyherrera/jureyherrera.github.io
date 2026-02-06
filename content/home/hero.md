@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Academia"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "juan2.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -18,11 +18,11 @@ hero_media = "user-2.jpg"
 
   # Background color.
   color = "#fff"
-  
+
   # Background gradient.
   # gradient_start = "#4bb4e3"
   # gradient_end = "#000"
-  
+
   # Background image.
   # image = ""  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -36,12 +36,12 @@ hero_media = "user-2.jpg"
 [btn]
   url = "authors/admin/"
   label = "Know more"
-  
+
 [btn_alt]
   url = "#contact"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## My name is **Juan Reyes Herrera** and I'm a **Scientist** specializing in different topics like **Synchrotron Radiation**,  **X-ray optics simulations** and **Radiation-matter interaction techniques.**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+Welcome to my personal page, here you will find more information about my research and topics of interest.

@@ -22,20 +22,20 @@
     </item>
     
     <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Courses</title>
       <link>http://localhost:1313/courses/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
       <guid>http://localhost:1313/courses/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publication/</guid>
       <description></description>
     </item>
     

@@ -1,13 +1,13 @@
 ---
 # Display name
-name: Juan Reyes Herrera (Juan Reyes-Herrera)
-avatar_image: "juan_full.jpg"
+name: Juan Reyes-Herrera
+avatar_image: "juan2.jpg"
 # Username (this should match the folder name)
 authors:
 - admin
 # resume download button
 btn:
-- url : "https://drive.google.com/file/d/1dMGp1bDfcAq0BX1SXWKO5cGvUdz7w34G/view?usp=drive_link"
+- url : "files/cv.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
@@ -36,10 +36,10 @@ interests:
 education:
   courses:
   - course: Ph.D., Physics
-    institution: UNAM, Mexico
+    institution: Institute of Physics, UNAM, Mexico
     year: 2015
   - course: M.Sc., Physics
-    institution: Massachusetts Institute of Technology
+    institution: Institute of Physics, UNAM, Mexico
     year: 2008
   - course: B.Sc., Physics
     institution: UAZ, Mexico
@@ -59,6 +59,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=QsUOP0sAAAAJ&hl=en&authuser=1
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/juan-reyes-herrera-39922b63/
 - icon: github
   icon_pack: fab
   link: https://github.com/jureyherrera
@@ -78,4 +81,4 @@ user_groups:
 - Visitors
 ---
 
-Juan Reyes-Herrera is a physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. He works as a beamline scientist / researcher at the Elettra Sincrotrone Trieste light source in Italy and has also been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France.
+Juan Reyes-Herrera is a physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. He works as a researcher in the optics group at the Elettra Sincrotrone Trieste light source in Italy and has also been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France.

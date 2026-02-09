@@ -1,10 +1,10 @@
 ---
-title: "An example journal article"
+title: "Modelling undulators in ray tracing simulations"
 authors:
+- Manuel Sánchez del Río
 - admin
-- Robert Ford
-date: "2015-09-01T00:00:00Z"
-doi: ""
+date: "2025-02-13T00:00:00Z"
+doi: "https://doi.org/10.1107/S1600577525000190"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -19,7 +19,7 @@ publication_types: ["2"]
 publication: "*Journal of Source Themes, 1*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We introduce a model that can accurately simulate radiation from undulator sources for ray tracing applications. It incorporates several key effects relevant to fourth-generation synchrotron sources, such as electron emittance, energy spread, and diffraction-limited beam size. This code has been developed as part of SHADOW4, the latest version of the widely used SHADOW X-ray optics ray tracing program. The approach relies on calculating the field distribution in the far field, which determines the ray divergences. The integration of existing models for electron energy spread is also addressed. Rays sampled at the source follow a size distribution derived by backpropagating the far-field radiation. These models are detailed, and several examples are provided.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -41,9 +41,9 @@ featured: false
 # url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

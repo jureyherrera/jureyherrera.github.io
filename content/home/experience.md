@@ -18,36 +18,36 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Scientist"
+  company = "Elettra sincrotrone Trieste"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Italy"
+  date_start = "2025-11-01"
   date_end = ""
-  description = """
+  description = """ Involved in the optimization of existing optical systems, the design of new ones and the definition and realization of new beamlines for Elettra 2.0.
   Responsibilities include:
-  
+
   * Analysing
   * Modelling
   * Deploying
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Beamline Scientist"
+  company = "Elettra sincrotrone Trieste"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Italy"
+  date_start = "2024-11-01"
+  date_end = "2025-10-31"
+  description = """Scientist for hard X-ray fluorescence and absorption beamlines at Elettra."""
 
 [[experience]]
-  title = "Professor"
-  company = "University Y"
+  title = "Scientist at the Mechanical Engineering Group"
+  company = "European Synchrotron (ESRF)"
   company_url = ""
-  location = "California"
+  location = "France"
   date_start = "2017-01-01"
   date_end = "2016-12-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-  
+  description = """ X-ray optics simulations for the optimization of existing beamlines and the design of new ones for EBS upgrade."""
+
 +++

@@ -15,6 +15,18 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
+  icon = "searchengin"
+  icon_pack = "fab"
+  name = "Research"
+  parcent = "90%"
+
+[[feature]]
+  icon = "people-carry"
+  icon_pack = "fas"
+  name = "Team work"
+  parcent = "95%"
+
+[[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Data analysis"
@@ -32,10 +44,6 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   name = "Cycling"
   parcent = "70%"
 
-[[feature]]
-  icon = "searchengin"
-  icon_pack = "fab"
-  name = "Research"
-  parcent = "95%"
+
 
 +++

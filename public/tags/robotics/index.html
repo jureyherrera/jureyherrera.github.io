@@ -90,8 +90,8 @@
   
 
   
-  <link rel="alternate" href="/tags/robotics/index.xml" type="application/rss+xml" title="Juan Reyes Herrera">
-  <link rel="feed" href="/tags/robotics/index.xml" type="application/rss+xml" title="Juan Reyes Herrera">
+  <link rel="alternate" href="/tags/robotics/index.xml" type="application/rss+xml" title="Juan Reyes-Herrera">
+  <link rel="feed" href="/tags/robotics/index.xml" type="application/rss+xml" title="Juan Reyes-Herrera">
   
 
   <link rel="manifest" href="/site.webmanifest">
@@ -109,9 +109,9 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Juan Reyes Herrera">
+  <meta property="og:site_name" content="Juan Reyes-Herrera">
   <meta property="og:url" content="http://localhost:1313/tags/robotics/">
-  <meta property="og:title" content="Robotics | Juan Reyes Herrera">
+  <meta property="og:title" content="Robotics | Juan Reyes-Herrera">
   <meta property="og:description" content="Scientist on X-ray optics simulations"><meta property="og:image" content="http://localhost:1313/img/icon-192.png">
   <meta property="twitter:image" content="http://localhost:1313/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -127,7 +127,7 @@
 
 
 
-  <title>Robotics | Juan Reyes Herrera</title>
+  <title>Robotics | Juan Reyes-Herrera</title>
 
 </head>
 
@@ -149,7 +149,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -169,7 +170,7 @@
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
     
-    <a class="navbar-brand" href="/">Juan Reyes Herrera</a>
+    <a class="navbar-brand" href="/">Juan Reyes-Herrera</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
       </button>
@@ -347,6 +348,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -463,18 +468,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -482,12 +521,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.f51a86447141287a8c7c53e5ef50845a.js"></script>
+    <script src="/js/academia.min.d7dd82087e314eca17b1fd9be478e8c5.js"></script>
 
     
 

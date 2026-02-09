@@ -108,9 +108,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Juan Reyes Herrera">
+  <meta property="og:site_name" content="Juan Reyes-Herrera">
   <meta property="og:url" content="http://localhost:1313/courses/example.1/example4/">
-  <meta property="og:title" content="Example Page 2 | Juan Reyes Herrera">
+  <meta property="og:title" content="Example Page 2 | Juan Reyes-Herrera">
   <meta property="og:description" content="Here are some more tips for getting started with academia:
 Tip 3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida."><meta property="og:image" content="http://localhost:1313/img/icon-192.png">
@@ -130,7 +130,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
 
 
 
-  <title>Example Page 2 | Juan Reyes Herrera</title>
+  <title>Example Page 2 | Juan Reyes-Herrera</title>
 
 </head>
 
@@ -152,7 +152,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -172,7 +173,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
     
-    <a class="navbar-brand" href="/">Juan Reyes Herrera</a>
+    <a class="navbar-brand" href="/">Juan Reyes-Herrera</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
       </button>
@@ -350,6 +351,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -384,6 +389,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
     <span><i class="fas fa-bars"></i></span>
   </button>
 
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
   
 </form>
 
@@ -550,6 +557,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
@@ -560,13 +583,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -574,12 +615,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.f51a86447141287a8c7c53e5ef50845a.js"></script>
+    <script src="/js/academia.min.d7dd82087e314eca17b1fd9be478e8c5.js"></script>
 
     
 

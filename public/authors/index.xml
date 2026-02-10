@@ -18,7 +18,7 @@
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/admin/</guid>
-      <description>&lt;p&gt;Juan Reyes-Herrera is a physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. He works as a researcher in the optics group at the Elettra Sincrotrone Trieste light source in Italy and has also been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France.&lt;/p&gt;
+      <description>&lt;p&gt;I am physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. I work as a researcher in the optics group at the Elettra Sincrotrone Trieste light source in Italy. Also, I have been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France and the Spanish synchrotron ALBA in Barcelona, Spain.&lt;/p&gt;
 </description>
     </item>
     
@@ -28,6 +28,15 @@
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/manuel-sanchez-del-rio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Et Al.,</title>
+      <link>http://localhost:1313/authors/et-al./</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/et-al./</guid>
       <description></description>
     </item>
     

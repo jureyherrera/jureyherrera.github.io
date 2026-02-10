@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
+subtitle = "I AM GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 
 # Showcase personal skills or business features.
 #
@@ -26,6 +26,12 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   name = "Team work"
   parcent = "95%"
 
+  [[feature]]
+    icon = "draw-polygon"
+    icon_pack = "fas"
+    name = "Simulations"
+    parcent = "87%"  
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
@@ -43,6 +49,18 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon_pack = "fas"
   name = "Cycling"
   parcent = "70%"
+
+[[feature]]
+  icon = "chess-knight"
+  icon_pack = "fas"
+  name = "Chess"
+  parcent = "69%"
+
+[[feature]]
+  icon = "basketball-ball"
+  icon_pack = "fas"
+  name = "Basketball"
+  parcent = "57%"
 
 
 

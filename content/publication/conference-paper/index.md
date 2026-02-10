@@ -1,5 +1,5 @@
 ---
-title: "Front End Absorbers Review And Upgrade With Copper-Zirconium CuCr1Zr Apertures For ESRF-EBS"
+title: "Front end absorbers review and upgrade with copper-zirconium CuCr1Zr apertures for ESRF-EBS"
 authors:
 - Philipp Brumund
 - Francois Villar
@@ -18,16 +18,19 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Front end Absorbers*
-publication_short: In *STC*
+publication: In *Journal of Physics Conf Series* 3010 (2025) 012004
+#publication_short: In *STC*
 
 abstract: A significant amount of Cryogenic Permanent Magnet Undulators (CP-MUs) were deployed in the past at the ESRF with considerably more overall emitted spectral power and reduced gaps [1, 3]. Further insertion device (ID) upgrade plans exist with double (2x2m) CPMU arrangements and possible high-temperature superconducting IDs. The drastically increased emission of photons and linked thermal power leads to higher thermal stresses on heat load absorbing elements in the front end. This poses challenges related to Low-Cycle Fatigue (LCF) which is characterized by high thermal-mechanical stress cycling that exceeds the material yield point and occurring plastic strain [6]. Linked to the drastically reduced emittance of the new fourth generation ESRF-EBS machine, new front end beam sizing components were introduced with reduced exit apertures to cut unwanted spectral energies. These were not properly validated in terms of lifetime in the run up to the EBS upgrade. A review was conducted to estimate the lifespan of these new components alongside the existing 30-year-old standard front end absorbers, considering powerful current and future ID upgrades. Alternative designs based on the copper alloy CuCr1Zr are proposed for the components that failed this review. CuCr1Zr links high thermal conductivity of copper with increased strength and hardness. Many recent ESRF-EBS heat load absorbers are almost exclusively based on this material and its advantageous properties [8]. ESRF specifications for CuCr1Zr were carefully developed in the past to guarantee a minimum hardness. This enables the possibility to easily machine UHV compatible components in bulk material that include Conflat flanges with purely classic machining procedures (milling, turning, EDM-wire cutting). Complicated brazing of flanges with materials such as GlidCop-Al15 or Cu-OFHC is therefore not necessary. Little data exists about the LCF behavior of CuCr1Zr. We launched LCF tests for material produced according to the ESRF specifications to obtain strain-lifetime data for reliable component lifetime prediction.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: To ensure the reliability of its new-generation beamlines, the ESRF is addressing a materials engineering challenge by adopting and rigorously testing the copper alloy CuCr1Zr for manufacturing durable, high-performance heat-absorbing components.
 
 tags:
-- Source Themes
+- powerload
+- synchrotron
+- undulators
+
 featured: true
 
 links:

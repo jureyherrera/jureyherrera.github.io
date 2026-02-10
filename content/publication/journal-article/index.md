@@ -16,16 +16,18 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Journal of Synchrotron Radiation, 32* (2025) 340-354"
 publication_short: ""
 
 abstract: We introduce a model that can accurately simulate radiation from undulator sources for ray tracing applications. It incorporates several key effects relevant to fourth-generation synchrotron sources, such as electron emittance, energy spread, and diffraction-limited beam size. This code has been developed as part of SHADOW4, the latest version of the widely used SHADOW X-ray optics ray tracing program. The approach relies on calculating the field distribution in the far field, which determines the ray divergences. The integration of existing models for electron energy spread is also addressed. Rays sampled at the source follow a size distribution derived by backpropagating the far-field radiation. These models are detailed, and several examples are provided.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A new model for simulating undulator radiation has been developed for the ray-tracing software SHADOW4. This model is designed to accurately represent the characteristics of modern, fourth-generation synchrotron X-ray sources.
 
 tags:
-- Source Themes
+- Synchrotron
+- Ray-tracing
+- Undulators
 featured: false
 
 # links:

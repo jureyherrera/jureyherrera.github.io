@@ -46,8 +46,19 @@ date_format = "Jan 2006"
   company = "European Synchrotron (ESRF)"
   company_url = ""
   location = "France"
-  date_start = "2017-01-01"
-  date_end = "2016-12-30"
+  date_start = "2019-11-01"
+  date_end = "2024-10-31"
   description = """ X-ray optics simulations for the optimization of existing beamlines and the design of new ones for EBS upgrade."""
 
+[[experience]]
+  title = "External postdoc at ID21 beamline"
+  company = "European Synchrotron (ESRF)"
+  company_url = ""
+  location = "France"
+  date_start = "2017-11-01"
+  date_end = "2019-10-31"
+  description = """ Experiments and data analysis on Environmental Science projects, X-ray optics simulations for the design of new nano-experimental station."""
+[design.background]
+ image = "trees1.jpg"  # Name of image in `static/img/`.
+ image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 +++

@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Juan Reyes-Herrera
-avatar_image: "juan2.jpg"
+avatar_image: "juan_full.jpg"
 # Username (this should match the folder name)
 authors:
 - admin
@@ -81,4 +81,4 @@ user_groups:
 - Visitors
 ---
 
-Juan Reyes-Herrera is a physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. He works as a researcher in the optics group at the Elettra Sincrotrone Trieste light source in Italy and has also been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France.
+I am physicist and researcher specializing in synchrotron radiation, X-ray optics, and radiation–matter interaction techniques. I work as a researcher in the optics group at the Elettra Sincrotrone Trieste light source in Italy. Also, I have been affiliated with major European synchrotron facilities such as the European Synchrotron Radiation Facility (ESRF) in Grenoble, France and the Spanish synchrotron ALBA in Barcelona, Spain.

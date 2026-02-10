@@ -7,17 +7,17 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 13:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://localhost:1313/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Coding and Analyzing Qualitative Data</title>
-      <link>http://localhost:1313/talk/coding/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <title>New opportunities and challenges of a micro-XRF/XAS beamline in Elettra 2.0</title>
+      <link>http://localhost:1313/talk/hpxm25/</link>
+      <pubDate>Mon, 16 Jun 2025 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/coding/</guid>
+      <guid>http://localhost:1313/talk/hpxm25/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,11 +34,11 @@
     </item>
     
     <item>
-      <title>Qualitative Research Summer Intensive</title>
-      <link>http://localhost:1313/talk/qualitative/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <title>Undulator models for ray-tracing simulations</title>
+      <link>http://localhost:1313/talk/sri2024/</link>
+      <pubDate>Mon, 26 Aug 2024 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/qualitative/</guid>
+      <guid>http://localhost:1313/talk/sri2024/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -55,11 +55,11 @@
     </item>
     
     <item>
-      <title>Synthesizing Qualitative Data</title>
-      <link>http://localhost:1313/talk/synthesizing/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <title>Modelling techniques for insertion device power management, photon transport and coherence propagation for ESRF beamlines</title>
+      <link>http://localhost:1313/talk/xopt2023/</link>
+      <pubDate>Tue, 18 Apr 2023 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/synthesizing/</guid>
+      <guid>http://localhost:1313/talk/xopt2023/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
